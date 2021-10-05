@@ -1,6 +1,6 @@
-const coco = require('./coco')
-const luna = require('./luna')
-const maggie = require('./maggie')
-
-const mascotas = [coco, luna, maggie]
-console.log(mascotas);
+const jokes = require("give-me-a-joke");
+const colors= require("colors")
+// To get a random dad joke
+jokes.getRandomDadJoke (function(joke) {
+     console.log(joke.rainbow);
+});
